@@ -1,4 +1,5 @@
 ﻿using Filters;
+using LoadMeAnAssembly.Properties;
 using System;
 using System.Linq;
 using System.Reflection;
@@ -68,6 +69,11 @@ namespace LoadMeAnAssembly
 
                 }
             }
+        }
+
+        private void btnReset_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Image = Resources.jakeandrj;
         }
     }
 }
